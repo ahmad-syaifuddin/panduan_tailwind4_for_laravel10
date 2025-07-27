@@ -1,5 +1,21 @@
 # 🚀 Panduan Install Tailwind CSS v4 di Laravel 10 + Vite
 
+## 📋 Requirements
+- Laravel 10.x
+- Node.js >= 20.x
+- NPM atau Yarn
+- Tailwind CSS v4.x
+
+---
+
+## 🔄 Tested Configuration
+- **Laravel:** 10.x
+- **Tailwind CSS:** v4.x
+- **Vite:** v5.4.19 (Recommended - stable)
+- **Node.js:** 22.x
+
+---
+
 ## 1. Install Laravel 10 (jika belum)
 ```bash
 composer create-project laravel/laravel nama_Project "10.*"
@@ -194,22 +210,6 @@ Lalu gunakan `class="dark"` di tag `<html>` atau `<body>`.
 - Cek apakah Vite berhasil mendeteksi file Tailwind di browser console.
 - Coba hapus cache browser atau inspect network file CSS.
 - Pastikan file `postcss.config.cjs` ada dan formatnya benar.
-
----
-
-## 📋 Requirements
-- Laravel 10.x
-- Node.js >= 20.x
-- NPM atau Yarn
-- Tailwind CSS v4.x
-
----
-
-## 🔄 Tested Configuration
-- **Laravel:** 10.x
-- **Tailwind CSS:** v4.x
-- **Vite: v5.4.19 (Recommended - stable)
-- **Node.js:** 22.x
 
 ---
 
