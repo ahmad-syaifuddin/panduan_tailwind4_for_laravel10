@@ -15,7 +15,7 @@ cd nama_Project
 ## 2. Install Tailwind CSS + Vite dependencies
 
 ```bash
-npm install -D tailwindcss
+npm install -D autoprefixer tailwindcss postcss
 ```
 
 ## 3. Inisialisasi Konfigurasi Tailwind
