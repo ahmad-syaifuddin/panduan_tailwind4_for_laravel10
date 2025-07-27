@@ -108,12 +108,7 @@ Contoh `resources/views/welcome.blade.php`:
 ```bash
 npm run dev
 ```
-
-atau
-
-```bash
-npm run watch
-```
+> 💡 Info: Di Laravel 10 + Vite, cuma ada npm run dev untuk development dan npm run build untuk production. Script watch sudah tidak ada lagi.
 
 ---
 
@@ -204,7 +199,7 @@ Lalu gunakan `class="dark"` di tag `<html>` atau `<body>`.
 
 ## 📋 Requirements
 - Laravel 10.x
-- Node.js >= 16.x
+- Node.js >= 20.x
 - NPM atau Yarn
 - Tailwind CSS v4.x
 
@@ -213,8 +208,8 @@ Lalu gunakan `class="dark"` di tag `<html>` atau `<body>`.
 ## 🔄 Tested Configuration
 - **Laravel:** 10.x
 - **Tailwind CSS:** v4.x
-- **Vite:** 5.4.19
-- **Node.js:** 18.x, 20.x
+- **Vite: v5.4.19 (Recommended - stable)
+- **Node.js:** 22.x
 
 ---
 
