@@ -24,7 +24,7 @@ npm install -D autoprefixer tailwindcss postcss
 
 > Sejak Tailwind CSS v4, perintah `npx tailwindcss init` **tidak otomatis membuat** file `tailwind.config.js` dan `postcss.config.js`. Jadi harus dibuat **manual**!
 
-### ✔️ Buat `tailwind.config.js` manual:
+### ✔️ Buat `tailwind.config.cjs` manual:
 
 ```js
 export default {
