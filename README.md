@@ -24,7 +24,7 @@ npm install -D vite laravel-vite-plugin tailwindcss@latest @tailwindcss/postcss 
 
 > Sejak Tailwind CSS v4, perintah `npx tailwindcss init` **tidak otomatis membuat** file `tailwind.config.js` dan `postcss.config.js`. Jadi harus dibuat **manual**!
 
-### ✔️ Buat `tailwind.config.cjs` manual:
+### ✔️ Buat `tailwind.config.js` manual:
 
 ```js
 export default {
@@ -39,7 +39,7 @@ export default {
 }
 ```
 
-### ✔️ Buat juga `postcss.config.js` manual:
+### ✔️ Buat juga `postcss.config.cjs` manual:
 
 ```js
 module.exports = {
