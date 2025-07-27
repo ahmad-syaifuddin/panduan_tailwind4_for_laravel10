@@ -54,7 +54,7 @@ module.exports = {
 
 Tanpa ini, **Tailwind nggak bakal ke-compile dengan Vite**.
 
-## 4. Buat File `resources/css/app.css`
+## 4. Buat atau cari File `resources/css/app.css`
 
 ```css
 @import 'tailwindcss';
