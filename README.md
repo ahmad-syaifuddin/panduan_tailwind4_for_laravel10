@@ -60,7 +60,7 @@ Tanpa ini, **Tailwind nggak bakal ke-compile dengan Vite**.
 @import 'tailwindcss';
 ```
 
-## 5. Update `vite.config.js`
+## 5. Update `vite.config.js` (Opsional, tapi jaga-jaga)
 
 ```js
 import { defineConfig } from 'vite';
