@@ -42,11 +42,13 @@ export default {
 ### ✔️ Buat juga `postcss.config.js` manual:
 
 ```js
-export default {
+module.exports = {
   plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
+    '@tailwindcss/postcss': {
+      tailwindConfig: './tailwind.config.cjs'
+    },
+    autoprefixer: {}
+  }
 }
 ```
 
