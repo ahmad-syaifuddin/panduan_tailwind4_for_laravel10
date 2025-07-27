@@ -1,6 +1,7 @@
 # 🚀 Panduan Install Tailwind CSS v4 di Laravel 10 + Vite
 
 ## 📋 Requirements
+- Composer vLatest
 - Laravel 10.x
 - Node.js >= 20.x
 - NPM atau Yarn
