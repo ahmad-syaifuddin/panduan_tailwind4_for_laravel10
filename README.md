@@ -5,7 +5,11 @@
 
 ```bash
 composer create-project laravel/laravel nama_Project "10.*"
-cd nama_Project 
+```
+
+### Buka/masuk ke dalam folder Project
+```bash
+cd nama_Project
 ```
 
 ## 2. Install Tailwind CSS + Vite dependencies
