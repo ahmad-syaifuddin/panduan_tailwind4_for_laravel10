@@ -149,7 +149,7 @@ Jika ingin langsung test, buat file `resources/views/welcome.blade.php`:
                     Get Started
                 </button>
                 
-                <a href="https://github.com/yourusername/laravel-layout-best-practice" 
+                <a href="https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10" 
                    class="block w-full px-6 py-3 bg-white/10 hover:bg-white/20 rounded-lg font-medium text-center transition-all border border-white/20">
                     📖 View Layout Best Practice
                 </a>
