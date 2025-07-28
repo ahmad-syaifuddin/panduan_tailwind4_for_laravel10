@@ -104,8 +104,26 @@ export default defineConfig({
 });
 ```
 
-## 6. Panggil Vite di Blade
-Contoh `resources/views/welcome.blade.php`:
+## 6. Setup Layout dan Blade Templates
+
+### 🎨 **REKOMENDASI: Gunakan Layout System yang Proper!**
+
+Alih-alih langsung coding di `welcome.blade.php`, sebaiknya gunakan layout system yang lebih terstruktur dan professional. 
+
+> 📖 **[Lihat Panduan Lengkap Laravel Layout Best Practice →](https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10)**
+
+Panduan tersebut mencakup:
+- ✅ Struktur layout yang scalable
+- ✅ Component-based architecture  
+- ✅ Dark mode support
+- ✅ Mobile responsive design
+- ✅ SEO optimization
+- ✅ Accessibility features
+- ✅ Performance optimization
+
+### 📝 Contoh Quick Start (Welcome Page)
+Jika ingin langsung test, buat file `resources/views/welcome.blade.php`:
+
 ```blade
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
@@ -126,11 +144,18 @@ Contoh `resources/views/welcome.blade.php`:
                 The future of CSS with Laravel & Vite
             </p>
             
-            <button class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium transition-all transform hover:-translate-y-1">
-                Get Started
-            </button>
+            <div class="space-y-4">
+                <button class="w-full px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium transition-all transform hover:-translate-y-1">
+                    Get Started
+                </button>
+                
+                <a href="https://github.com/yourusername/laravel-layout-best-practice" 
+                   class="block w-full px-6 py-3 bg-white/10 hover:bg-white/20 rounded-lg font-medium text-center transition-all border border-white/20">
+                    📖 View Layout Best Practice
+                </a>
+            </div>
             
-            <div class="mt-8 flex gap-4">
+            <div class="mt-8 flex gap-4 flex-wrap justify-center">
                 <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono">Laravel 10</span>
                 <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono">Tailwind v4</span>
                 <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono">Vite</span>
@@ -175,7 +200,7 @@ npm run dev
 ## 🧩 Struktur Folder Default
 - CSS: `resources/css/app.css`
 - JS: `resources/js/app.js`
-- Blade layout (optional): `resources/views/layouts/app.blade.php`
+- Blade layout (recommended): `resources/views/layouts/app.blade.php`
 
 ---
 
@@ -234,6 +259,18 @@ Lalu gunakan `class="dark"` di tag `<html>` atau `<body>`.
 
 ---
 
+## 🎯 Next Steps
+
+Setelah instalasi berhasil, disarankan untuk:
+
+1. **Setup Layout System**: Gunakan panduan layout best practice untuk struktur yang lebih maintainable
+2. **Component Library**: Buat komponen reusable untuk button, form, card, dll
+3. **Authentication**: Integrate dengan Laravel Breeze atau Jetstream
+4. **Database Design**: Setup model dan migration
+5. **Testing**: Tambahkan unit test dan feature test
+
+---
+
 > 📚 Panduan ini cocok untuk Laravel 10 yang menggunakan Vite sebagai bundler. Sudah tested dengan Tailwind CSS v4 dan kedua opsi PostCSS config sudah confirmed work!
 
 ---
@@ -242,3 +279,12 @@ Lalu gunakan `class="dark"` di tag `<html>` atau `<body>`.
 
 ## 🤝 Contributing
 Ada masalah atau punya saran improvement? Feel free untuk buka issue atau submit PR!
+
+---
+
+## 📖 Related Resources
+
+- 🎨 **[Laravel Layout Best Practice](https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10)** - Complete layout system guide
+- 📚 [Laravel 10 Documentation](https://laravel.com/docs/10.x)
+- 🎨 [Tailwind CSS v4 Documentation](https://tailwindcss.com/docs)
+- ⚡ [Vite Laravel Plugin](https://laravel.com/docs/10.x/vite)
