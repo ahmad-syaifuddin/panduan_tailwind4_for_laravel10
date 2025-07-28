@@ -108,15 +108,35 @@ export default defineConfig({
 Contoh `resources/views/welcome.blade.php`:
 ```blade
 <!DOCTYPE html>
-<html>
+<html lang="en" class="scroll-smooth">
 <head>
-    <title>Laravel + Tailwind</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <title>Laravel + Tailwind v4</title>
 </head>
-<body class="bg-gray-100">
-    <h1 class="text-3xl font-bold underline text-blue-500">
-        Hello world!
-    </h1>
+<body class="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100 font-sans">
+    <div class="min-h-screen flex flex-col items-center justify-center p-4">
+        <div class="max-w-2xl w-full bg-white/5 backdrop-blur-md rounded-2xl border border-white/10 p-8 shadow-2xl transition-all hover:shadow-indigo-500/20">
+            <h1 class="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent mb-6">
+                Welcome to <span class="animate-pulse">v4</span>
+            </h1>
+            
+            <p class="text-lg text-gray-300 mb-8">
+                The future of CSS with Laravel & Vite
+            </p>
+            
+            <button class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium transition-all transform hover:-translate-y-1">
+                Get Started
+            </button>
+            
+            <div class="mt-8 flex gap-4">
+                <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono">Laravel 10</span>
+                <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono">Tailwind v4</span>
+                <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono">Vite</span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 ```
