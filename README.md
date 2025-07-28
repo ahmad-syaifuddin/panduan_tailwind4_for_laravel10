@@ -144,23 +144,37 @@ Jika ingin langsung test, buat file `resources/views/welcome.blade.php`:
                 The future of CSS with Laravel & Vite
             </p>
             
-            <div class="space-y-4">
-                <button class="w-full px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium transition-all transform hover:-translate-y-1">
-                    Get Started
-                </button>
-                
-                <a href="https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10" 
-                   class="block w-full px-6 py-3 bg-white/10 hover:bg-white/20 rounded-lg font-medium text-center transition-all border border-white/20">
-                    📖 View Layout Best Practice
-                </a>
-            </div>
+            <a href="https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10" 
+            class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium transition-all transform hover:-translate-y-1 inline-flex items-center gap-2">
+                📖 View Layout Best Practice
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </a>
             
-            <div class="mt-8 flex gap-4 flex-wrap justify-center">
+            <div class="mt-8 flex gap-4">
                 <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono">Laravel 10</span>
                 <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono">Tailwind v4</span>
                 <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-mono">Vite</span>
             </div>
         </div>
+
+        <!-- Stylish Footer -->
+        <footer class="mt-12 text-center text-gray-400 text-sm">
+            <div class="flex items-center justify-center gap-2">
+                <span>Crafted with</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-red-500 animate-pulse" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                </svg>
+                <span>by</span>
+                <a href="https://github.com/ahmadsyaifuddin-dins" class="font-medium text-indigo-400 hover:text-indigo-300 transition-colors">
+                    Ahmad Syaifuddin
+                </a>
+            </div>
+            <div class="mt-2 opacity-75">
+                © {{ now()->year }} All rights reserved
+            </div>
+        </footer>
     </div>
 </body>
 </html>
