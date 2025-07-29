@@ -110,7 +110,7 @@ export default defineConfig({
 
 Alih-alih langsung coding di `welcome.blade.php`, sebaiknya gunakan layout system yang lebih terstruktur dan professional. 
 
-> 📖 **[Lihat Panduan Lengkap Laravel Layout Best Practice →](https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10)**
+> 📖 **[Lihat Panduan Lengkap Laravel Layout Best Practice (Landing Page) →](https://github.com/ahmad-syaifuddin/tailwind4-best-practice-landing-page-laravel)**
 
 Panduan tersebut mencakup:
 - ✅ Struktur layout yang scalable
@@ -165,7 +165,7 @@ Jika ingin langsung test, buat file `resources/views/welcome.blade.php`:
                 The future of CSS with Laravel & Vite
             </p>
             
-            <a href="https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10" target="_blank"
+            <a href="https://github.com/ahmad-syaifuddin/tailwind4-best-practice-landing-page-laravel" target="_blank"
             class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium text-white transition-all transform hover:-translate-y-1 inline-flex items-center gap-2">
                 📖 View Layout Best Practice
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -493,7 +493,7 @@ Ada masalah atau punya saran improvement? Feel free untuk buka issue atau submit
 
 ## 📖 Related Resources
 
-- 🎨 **[Laravel Layout Best Practice](https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10)** - Complete layout system guide
+- 🎨 **[Laravel Layout Best Practice (Landing Page)](https://github.com/ahmad-syaifuddin/tailwind4-best-practice-landing-page-laravel)** - Complete layout system guide
 - 📚 [Laravel 10 Documentation](https://laravel.com/docs/10.x)
 - 🎨 [Tailwind CSS v4 Documentation](https://tailwindcss.com/docs)
 - 🌙 [Tailwind v4 Dark Mode Docs](https://tailwindcss.com/docs/dark-mode)
