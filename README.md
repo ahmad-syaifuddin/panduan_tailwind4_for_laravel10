@@ -69,7 +69,7 @@ Buat file test `resources/views/welcome.blade.php`:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laravel + Tailwind v4</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+     @vite(['resources/css/app.css', 'resources/js/app.js']) 
     <script>
         // Check for saved theme preference or use system preference
         (function() {
@@ -103,7 +103,15 @@ Buat file test `resources/views/welcome.blade.php`:
                 The future of CSS with Laravel & Vite
             </p>
             
-            <div class="flex gap-4 flex-wrap">
+            <a href="https://github.com/ahmad-syaifuddin/tailwind4-best-practice-landing-page-laravel" target="_blank"
+            class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium text-white transition-all transform hover:-translate-y-1 inline-flex items-center gap-2">
+                📖 View Layout Best Practice
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </a>
+            
+            <div class="mt-8 flex gap-4 flex-wrap">
                 <span class="px-3 py-1 bg-gray-100 dark:bg-white/10 rounded-full text-xs font-mono">Laravel 10</span>
                 <span class="px-3 py-1 bg-gray-100 dark:bg-white/10 rounded-full text-xs font-mono">Tailwind v4</span>
                 <span class="px-3 py-1 bg-gray-100 dark:bg-white/10 rounded-full text-xs font-mono">Vite</span>
@@ -118,7 +126,10 @@ Buat file test `resources/views/welcome.blade.php`:
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-red-500 animate-pulse" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
                 </svg>
-                <span>by Developer</span>
+                <span>by</span>
+                <a href="https://github.com/ahmadsyaifuddin-dins" target="_blank" class="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300 transition-colors">
+                    Ahmad Syaifuddin
+                </a>
             </div>
             <div class="mt-2 opacity-75">
                 © {{ now()->year }} All rights reserved
