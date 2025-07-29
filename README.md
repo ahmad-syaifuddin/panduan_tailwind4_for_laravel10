@@ -165,7 +165,7 @@ Jika ingin langsung test, buat file `resources/views/welcome.blade.php`:
                 The future of CSS with Laravel & Vite
             </p>
             
-            <a href="https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10" 
+            <a href="https://github.com/ahmad-syaifuddin/tailwind4-best-practice-laravel10" target="_blank"
             class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium text-white transition-all transform hover:-translate-y-1 inline-flex items-center gap-2">
                 📖 View Layout Best Practice
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -189,7 +189,7 @@ Jika ingin langsung test, buat file `resources/views/welcome.blade.php`:
                     <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
                 </svg>
                 <span>by</span>
-                <a href="https://github.com/ahmadsyaifuddin-dins" class="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300 transition-colors">
+                <a href="https://github.com/ahmadsyaifuddin-dins" target="_blank" class="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300 transition-colors">
                     Ahmad Syaifuddin
                 </a>
             </div>
