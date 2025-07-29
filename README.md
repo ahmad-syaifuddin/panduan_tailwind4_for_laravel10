@@ -38,6 +38,8 @@ Edit atau buat `resources/css/app.css`:
 ```css
 @import 'tailwindcss';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* Tell Tailwind to scan views directory */
 @source "../views";
 ```
@@ -198,6 +200,8 @@ Tailwind v4 memiliki automatic content detection dan tidak memerlukan konfiguras
 /* Tambahkan di resources/css/app.css jika diperlukan */
 @import 'tailwindcss';
 @source "../views";
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* Optional: Force class-based dark mode */
 @media (prefers-color-scheme: dark) {
