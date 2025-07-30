@@ -63,7 +63,21 @@ export default defineConfig({
 
 ## 5. Test Installation
 
-Buat file test `resources/views/welcome.blade.php`:
+Alih-alih langsung coding di `welcome.blade.php`, sebaiknya gunakan layout system yang lebih terstruktur dan professional. 
+
+> 📖 **[Lihat Panduan Lengkap Laravel Layout Best Practice (Landing Page) →](https://github.com/ahmad-syaifuddin/tailwind4-best-practice-landing-page-laravel)**
+
+Panduan tersebut mencakup:
+- ✅ Struktur layout yang scalable
+- ✅ Component-based architecture  
+- ✅ Dark mode support
+- ✅ Mobile responsive design
+- ✅ SEO optimization
+- ✅ Accessibility features
+- ✅ Performance optimization
+
+### 📝 Contoh Quick Start (Welcome Page)
+Jika ingin langsung test, buat/cari file `resources/views/welcome.blade.php`:
 ```blade
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
